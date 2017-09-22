@@ -10,7 +10,9 @@ import { QBtn } from 'quasar'
 
 export default {
   data() {
-    text: ''
+    return {
+      text: ''
+    }
   },
   components: {
     QBtn
