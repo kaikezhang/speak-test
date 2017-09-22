@@ -14,7 +14,7 @@ import Vue from 'vue'
 import Quasar from 'quasar'
 import router from './router'
 
-import responsivevoice from 'script-loader!./lib/responsivevoice.js'
+require('script-loader!./lib/responsivevoice.js')
 
 Vue.config.productionTip = false
 Vue.use(Quasar) // Install Quasar Framework
